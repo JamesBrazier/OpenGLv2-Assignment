@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="MyExtentions">
+      <UniqueIdentifier>{4f31347c-d823-40c1-a4ca-b0f9df265db0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyExtentions\Headers">
+      <UniqueIdentifier>{d053853d-da06-41d0-82d0-97ab3ba6c49b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyExtentions\Source">
+      <UniqueIdentifier>{a99f990a-3d1f-4219-a61d-ccb43d0056a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects">
+      <UniqueIdentifier>{0a223576-3131-4b59-9d4b-89bd01935f12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\Headers">
+      <UniqueIdentifier>{518e2d6e-8181-44b8-89ec-5afcf215ddb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\Source">
+      <UniqueIdentifier>{9f74196b-31d7-4724-a475-2dc8582c6817}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="TextureManager">
+      <UniqueIdentifier>{f8b6758e-38ff-4527-a770-9c327bf8c6b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TextureManager\Headers">
+      <UniqueIdentifier>{e6935073-de29-4ef5-863a-d34abf0bbc08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TextureManager\Source">
+      <UniqueIdentifier>{01fc2736-accb-4f56-9565-daa48c09922a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Program.cpp" />
+    <ClCompile Include="MyExtentions\Camera.cpp">
+      <Filter>MyExtentions\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="MyExtentions\Floor.cpp">
+      <Filter>MyExtentions\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="MyExtentions\GLobject.cpp">
+      <Filter>MyExtentions\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="MyExtentions\Particle.cpp">
+      <Filter>MyExtentions\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="MyExtentions\ParticleSource.cpp">
+      <Filter>MyExtentions\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="MyExtentions\Shapes.cpp">
+      <Filter>MyExtentions\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="MyExtentions\Skybox.cpp">
+      <Filter>MyExtentions\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="MyExtentions\SpotLight.cpp">
+      <Filter>MyExtentions\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Objects\Bush.cpp">
+      <Filter>Objects\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Objects\Cannon.cpp">
+      <Filter>Objects\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Objects\CannonBall.cpp">
+      <Filter>Objects\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Objects\Castle.cpp">
+      <Filter>Objects\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Objects\Robot.cpp">
+      <Filter>Objects\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Objects\SpaceShip.cpp">
+      <Filter>Objects\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Objects\Tree.cpp">
+      <Filter>Objects\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Objects\Units.cpp">
+      <Filter>Objects\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureManager\TextureManager.cpp">
+      <Filter>TextureManager\Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MyExtentions\Camera.h">
+      <Filter>MyExtentions\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="MyExtentions\Floor.h">
+      <Filter>MyExtentions\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="MyExtentions\GLobject.h">
+      <Filter>MyExtentions\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="MyExtentions\Particle.h">
+      <Filter>MyExtentions\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="MyExtentions\ParticleSource.h">
+      <Filter>MyExtentions\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="MyExtentions\SkyBox.h">
+      <Filter>MyExtentions\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="MyExtentions\SpotLight.h">
+      <Filter>MyExtentions\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="MyExtentions\MyExtentions.h">
+      <Filter>MyExtentions</Filter>
+    </ClInclude>
+    <ClInclude Include="Objects\Objects.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Objects\Bush.h">
+      <Filter>Objects\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Objects\Cannon.h">
+      <Filter>Objects\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Objects\CannonBall.h">
+      <Filter>Objects\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Objects\Castle.h">
+      <Filter>Objects\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Objects\Robot.h">
+      <Filter>Objects\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Objects\SpaceShip.h">
+      <Filter>Objects\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Objects\Tree.h">
+      <Filter>Objects\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Objects\Units.h">
+      <Filter>Objects\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureManager\TextureManager.h">
+      <Filter>TextureManager</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureManager\loadBMP.h">
+      <Filter>TextureManager\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureManager\loadTGA.h">
+      <Filter>TextureManager\Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resources\Brick.bmp">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="Resources\Metal.bmp">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="Resources\Grass.bmp">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="Resources\Wood.bmp">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="Resources\Skybox.bmp">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="Resources\Bark.bmp">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="Resources\Leaves.bmp">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="Resources\Skybox Night.bmp">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="Resources\Bush.tga">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="Resources\Smoke.tga">
+      <Filter>Resources</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
